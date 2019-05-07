@@ -15,7 +15,7 @@ class Backer
     @@all 
   end 
   
-  def back_project(name)
+  def back_project(project_name)
     project_name = Project.new(name)
     @backed_projects << project_name 
   end 
